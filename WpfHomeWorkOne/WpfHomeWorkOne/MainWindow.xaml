@@ -9,6 +9,5 @@
     <Grid>
         <Button x:Name="buttonColor" Content="Изменить цвет" HorizontalAlignment="Left" Margin="28,232,0,0" VerticalAlignment="Top" Width="115" Click="ButtonColor_Click"/>
         <Button x:Name="buttonExitColor" Content="Выйти" HorizontalAlignment="Left" Margin="157,232,0,0" VerticalAlignment="Top" Width="114" Click="ButtonExitColor_Click"/>
-
     </Grid>
 </Window>
