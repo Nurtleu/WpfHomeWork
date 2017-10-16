@@ -5,14 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfHomeWorkOne"
         mc:Ignorable="d"
-        Title="AuthorizationWindow" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+        Title="AuthorizationWindow" Height="254.873" Width="300" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label x:Name="labelLoginAuthorization" Content="Логин:" HorizontalAlignment="Left" Margin="30,41,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="labelPasswordAuthorization" Content="Пароль:" HorizontalAlignment="Left" Margin="17,96,0,0" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="textBoxLoginAuthorization" HorizontalAlignment="Left" Height="30" Margin="125,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontSize="20"/>
-        <TextBox x:Name="textBoxPasswordAuthorization" HorizontalAlignment="Left" Height="30" Margin="125,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontSize="20"/>
-        <Button x:Name="buttonSignIn" Content="Войти" HorizontalAlignment="Left" Margin="75,162,0,0" VerticalAlignment="Top" Width="148" Height="36" FontSize="20" Click="ButtonSignIn_Click"/>
-        <Button x:Name="buttonRegistrationWindow" Content="Регистрационный окно" HorizontalAlignment="Left" Margin="75,229,0,0" VerticalAlignment="Top" Width="148" Click="ButtonRegistrationWindow_Click"/>
+        <Button x:Name="buttonSignIn" Content="Войти" HorizontalAlignment="Left" Margin="75,109,0,0" VerticalAlignment="Top" Width="148" Height="36" FontSize="20" Click="ButtonSignIn_Click" RenderTransformOrigin="0.505,-0.924"/>
+        <Button x:Name="buttonRegistrationWindow" Content="Регистрационный окно" HorizontalAlignment="Left" Margin="75,174,0,0" VerticalAlignment="Top" Width="148" Click="ButtonRegistrationWindow_Click"/>
 
     </Grid>
 </Window>
